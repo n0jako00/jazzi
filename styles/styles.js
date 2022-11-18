@@ -30,7 +30,6 @@ export const styles = StyleSheet.create({
   },
   title: {
     fontWeight: 'bold',
-    flex: 1,
     fontSize: 23,
     textAlign: 'center',
     margin: 10,
@@ -38,7 +37,6 @@ export const styles = StyleSheet.create({
   author: {
     color: '#fff',
     fontWeight: 'bold',
-    flex: 1,
     fontSize: 15,
     textAlign: 'center',
     margin: 10,
@@ -64,5 +62,10 @@ export const styles = StyleSheet.create({
     marginLeft: 170,
     marginRight: 170,
     textAlign: 'center'
-  }
+  },
+  gameboard: {
+    backgroundColor: '#F0F8FF',
+    alignItems: 'center',
+    justifyContent: 'center'
+  },
 });
